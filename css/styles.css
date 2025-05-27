@@ -62,3 +62,23 @@ th {
 .whatsapp-link:hover {
     color: #25D366; /* Color verde de WhatsApp */
 }
+
+.social-link {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+    margin: 0 5px;
+}
+
+.social-link.whatsapp:hover {
+    color: #25D366; /* Color de WhatsApp */
+}
+
+.social-link.instagram:hover {
+    color: #E1306C; /* Color de Instagram */
+}
+
+/* Si usas Font Awesome para íconos */
+.fab {
+    margin-right: 5px;
+}
